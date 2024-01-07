@@ -1,0 +1,69 @@
+/* Lato Font style */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* universal select */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+button {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover{
+    background: #4e44e7;
+}
+
+/* header style */
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner .banner-text *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+.banner .banner-text h1 {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+.banner .banner-img{
+    width: 100%;
+    vertical-align: middle;
+}
