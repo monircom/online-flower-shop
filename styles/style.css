@@ -207,3 +207,29 @@ header,
     width: 100%;
     max-width: 318px;
 }
+
+#newsletter{
+    margin: 128px 0;
+}
+
+.newsletter-main{
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 122px 0;
+    background-repeat: no-repeat;
+}
+
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter form input{
+   flex-grow: 1;
+   border: none;
+   border-radius: 3px;
+   padding: 10px;
+   font-size: 20px;
+   outline: none;
+}
